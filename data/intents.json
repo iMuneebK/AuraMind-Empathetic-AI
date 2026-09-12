@@ -1,0 +1,7 @@
+{
+    "anxiety": ["anxious", "nervous", "panic", "worry", "scared"],
+    "depression": ["sad", "depressed", "hopeless", "crying", "down"],
+    "stress": ["stressed", "overwhelmed", "pressure", "burnout"],
+    "sleep issues": ["can't sleep", "insomnia", "tired", "exhausted"],
+    "grief": ["loss", "died", "grief", "miss them"]
+}
