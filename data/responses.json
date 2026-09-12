@@ -1,0 +1,22 @@
+{
+    "anxiety": [
+        "It's completely normal to feel anxious. Can you try taking a slow, deep breath with me?",
+        "Anxiety can be really overwhelming. What's one small thing you can do right now to feel safe?"
+    ],
+    "depression": [
+        "I'm sorry you're feeling so down. You don't have to carry this alone.",
+        "Depression can make everything feel heavy. Be gentle with yourself today."
+    ],
+    "stress": [
+        "It sounds like you have a lot on your plate. Is there anything you can set aside for tomorrow?",
+        "When we're stressed, our bodies need rest. Have you taken a break recently?"
+    ],
+    "sleep issues": [
+        "Lack of sleep makes everything harder. Maybe a warm drink or dimming the lights could help wind down.",
+        "It's frustrating when you can't sleep. Try not to force it; just rest your body."
+    ],
+    "grief": [
+        "I am so sorry for your loss. There is no timeline for grief.",
+        "Grief is a process that takes time. It's okay to feel whatever you're feeling right now."
+    ]
+}
