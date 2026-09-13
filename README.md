@@ -1,28 +1,39 @@
-# 🧠 AuraMind — Voice-Enabled Conversational AI for Mental Health Support
+# AuraMind-Empathetic-AI
 
-[![Python 3.10](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)](https://huggingface.co/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.25%2B-red.svg)](https://streamlit.io/)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-Active-success.svg)
 
-> **Developer Notes**: Built to explore adaptive tone synthesis, real-time emotion classification, and safety crisis protocols in conversational agents.
+## Description
+This project focuses on mental health chatbot. It aims to provide a robust, efficient, and scalable solution using modern technologies and best practices in the field.
 
----
+## Key Features
+- High performance architecture
+- Extensible and modular design
+- Comprehensive data processing capabilities
+- Easy-to-use interface and quick setup
 
-## 📌 Architecture & Design
+## Tech Stack
+- NLP\n- HuggingFace\n- Sentiment Analysis\n- Voice\n- Streamlit
 
-AuraMind is an empathetic voice-enabled AI companion. It tracks session emotional valence, adapts empathy levels dynamically, and surfaces crisis safety helplines whenever risk keywords are detected.
-
-```mermaid
-graph TD
-    User[Voice / Text Input] --> STT[Speech-to-Text Parser]
-    STT --> Safety[Crisis Safety Keyword Filter]
-    Safety -- Risk Detected --> Crisis[Surfaces Helpline 988 Info]
-    Safety -- Safe --> Emotion[HuggingFace Sentiment Analyzer]
-    Emotion --> Intent[NLP Intent Classifier]
-    Intent --> Generator[Adaptive Empathy Response Generator]
-    Generator --> Tracker[Mood Analytics Engine]
-    Generator --> TTS[Text-to-Speech Output]
+## Quick Start
+```bash
+git clone https://github.com/iMuneebK/AuraMind-Empathetic-AI.git
+cd AuraMind-Empathetic-AI
+pip install -r requirements.txt
+python main.py
 ```
 
-## 🛡️ Safety & Ethical Guidelines
-This project is an academic AI research prototype designed for conversational support. It includes hardcoded crisis safety filters and emergency helpline notifications.
+## Project Structure
+```
+AuraMind-Empathetic-AI/
+├── data/
+├── models/
+├── src/
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+## License
+This project is licensed under the MIT License.
